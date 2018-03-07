@@ -33,6 +33,11 @@
     NSLog(@"SignUp Button is pressed");
 }
 
+//- (IBAction)manualNavigation:(id)sender {
+//    NSLog(@"Successfully trigerred the Manual Navigation");
+//
+//}
+
 /*
 #pragma mark - Navigation
 

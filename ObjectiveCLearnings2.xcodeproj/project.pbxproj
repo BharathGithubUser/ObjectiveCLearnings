@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE3CAC8A204FEDC100F577CD /* Sample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3CAC88204FEDC100F577CD /* Sample.storyboard */; };
 		CE4C4046204D67CF00A46CD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C4045204D67CF00A46CD0 /* AppDelegate.m */; };
 		CE4C4049204D67CF00A46CD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C4048204D67CF00A46CD0 /* ViewController.m */; };
 		CE4C404C204D67CF00A46CD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE4C404A204D67CF00A46CD0 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE3CAC89204FEDC100F577CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Sample.storyboard; sourceTree = "<group>"; };
 		CE4C4041204D67CF00A46CD0 /* ObjectiveCLearnings2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveCLearnings2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4C4044204D67CF00A46CD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE4C4045204D67CF00A46CD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				CE4C404F204D67CF00A46CD0 /* LaunchScreen.storyboard */,
 				CE4C4052204D67CF00A46CD0 /* Info.plist */,
 				CE4C4053204D67CF00A46CD0 /* main.m */,
+				CE3CAC88204FEDC100F577CD /* Sample.storyboard */,
 			);
 			path = ObjectiveCLearnings2;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				CE4C4051204D67CF00A46CD0 /* LaunchScreen.storyboard in Resources */,
 				CE4C404E204D67CF00A46CD0 /* Assets.xcassets in Resources */,
+				CE3CAC8A204FEDC100F577CD /* Sample.storyboard in Resources */,
 				CE4C404C204D67CF00A46CD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +331,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		CE3CAC88204FEDC100F577CD /* Sample.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3CAC89204FEDC100F577CD /* Base */,
+			);
+			name = Sample.storyboard;
+			sourceTree = "<group>";
+		};
 		CE4C404A204D67CF00A46CD0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

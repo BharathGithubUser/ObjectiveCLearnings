@@ -17,7 +17,7 @@
 @implementation TableViewControllerExample
 - (void) viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view.
     [self arraySetup];
 }
 
@@ -34,8 +34,6 @@
     CustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
     cell.cellImageDescriptionLabel.text = nameArray[indexPath.row];
     cell.cellImageView.image = [UIImage imageNamed:@"AppIcon"];
-    CGFloat height =50;
-
     return cell;
 }
 
