@@ -15,6 +15,10 @@
 		CE4C4054204D67CF00A46CD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C4053204D67CF00A46CD0 /* main.m */; };
 		CE4C405E204D67D000A46CD0 /* ObjectiveCLearnings2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C405D204D67D000A46CD0 /* ObjectiveCLearnings2Tests.m */; };
 		CE4C4069204D67D000A46CD0 /* ObjectiveCLearnings2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C4068204D67D000A46CD0 /* ObjectiveCLearnings2UITests.m */; };
+		CEF9E177204E7652004D5EB8 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E176204E7652004D5EB8 /* WelcomeViewController.m */; };
+		CEF9E17A204E769D004D5EB8 /* HomeLoginScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E179204E769D004D5EB8 /* HomeLoginScreen.m */; };
+		CEF9E17D204EA585004D5EB8 /* TableViewControllerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E17C204EA585004D5EB8 /* TableViewControllerExample.m */; };
+		CEF9E180204EA901004D5EB8 /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF9E17F204EA901004D5EB8 /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		CE4C4064204D67D000A46CD0 /* ObjectiveCLearnings2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjectiveCLearnings2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4C4068204D67D000A46CD0 /* ObjectiveCLearnings2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveCLearnings2UITests.m; sourceTree = "<group>"; };
 		CE4C406A204D67D000A46CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF9E175204E7652004D5EB8 /* WelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		CEF9E176204E7652004D5EB8 /* WelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		CEF9E178204E769D004D5EB8 /* HomeLoginScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeLoginScreen.h; sourceTree = "<group>"; };
+		CEF9E179204E769D004D5EB8 /* HomeLoginScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeLoginScreen.m; sourceTree = "<group>"; };
+		CEF9E17B204EA585004D5EB8 /* TableViewControllerExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewControllerExample.h; sourceTree = "<group>"; };
+		CEF9E17C204EA585004D5EB8 /* TableViewControllerExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerExample.m; sourceTree = "<group>"; };
+		CEF9E17E204EA901004D5EB8 /* CustomTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		CEF9E17F204EA901004D5EB8 /* CustomTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,14 @@
 				CE4C4047204D67CF00A46CD0 /* ViewController.h */,
 				CE4C4048204D67CF00A46CD0 /* ViewController.m */,
 				CE4C404A204D67CF00A46CD0 /* Main.storyboard */,
+				CEF9E17E204EA901004D5EB8 /* CustomTableViewCell.h */,
+				CEF9E17F204EA901004D5EB8 /* CustomTableViewCell.m */,
+				CEF9E17B204EA585004D5EB8 /* TableViewControllerExample.h */,
+				CEF9E17C204EA585004D5EB8 /* TableViewControllerExample.m */,
+				CEF9E178204E769D004D5EB8 /* HomeLoginScreen.h */,
+				CEF9E179204E769D004D5EB8 /* HomeLoginScreen.m */,
+				CEF9E175204E7652004D5EB8 /* WelcomeViewController.h */,
+				CEF9E176204E7652004D5EB8 /* WelcomeViewController.m */,
 				CE4C404D204D67CF00A46CD0 /* Assets.xcassets */,
 				CE4C404F204D67CF00A46CD0 /* LaunchScreen.storyboard */,
 				CE4C4052204D67CF00A46CD0 /* Info.plist */,
@@ -266,7 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE4C4049204D67CF00A46CD0 /* ViewController.m in Sources */,
+				CEF9E180204EA901004D5EB8 /* CustomTableViewCell.m in Sources */,
+				CEF9E177204E7652004D5EB8 /* WelcomeViewController.m in Sources */,
+				CEF9E17D204EA585004D5EB8 /* TableViewControllerExample.m in Sources */,
 				CE4C4054204D67CF00A46CD0 /* main.m in Sources */,
+				CEF9E17A204E769D004D5EB8 /* HomeLoginScreen.m in Sources */,
 				CE4C4046204D67CF00A46CD0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
