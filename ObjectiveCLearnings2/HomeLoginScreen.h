@@ -13,6 +13,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordText;
 - (IBAction)loginButton:(id)sender;
 - (IBAction)signUpButton:(id)sender;
-//- (IBAction)manualNavigation:(id)sender;
+- (IBAction)manualNavigation:(id)sender;
 
 @end

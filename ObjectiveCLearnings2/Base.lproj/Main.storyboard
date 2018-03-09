@@ -98,6 +98,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQs-wD-EhA">
                                         <rect key="frame" x="35" y="403" width="250" height="30"/>
                                         <state key="normal" title="ManualNavigation"/>
+                                        <connections>
+                                            <action selector="manualNavigation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vGf-lO-Gsp"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.39097134303156234" green="1" blue="0.33347920426402977" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -155,7 +158,7 @@
         <!--Welcome View Controller-->
         <scene sceneID="hqd-GV-ZJe">
             <objects>
-                <viewController id="CUh-NV-XNf" customClass="WelcomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="CUh-NV-XNf" customClass="WelcomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OpV-hc-pi6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -208,7 +211,7 @@
                                 <rect key="frame" x="0.0" y="60" width="320" height="508"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="90" reuseIdentifier="cell" rowHeight="216" id="uba-S4-H9E" customClass="CustomTableViewCell">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="90" reuseIdentifier="cell" rowHeight="216" id="uba-S4-H9E" customClass="CustomTableViewCell">
                                         <rect key="frame" x="0.0" y="28" width="320" height="216"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uba-S4-H9E" id="kBn-S5-6MS">
@@ -270,6 +273,7 @@
         <!--Navigation Controller-->
         <scene sceneID="bxu-Gx-iEq">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wvH-TN-vWj" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cB1-le-xtw" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x4O-nh-LAX">
@@ -281,7 +285,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="FK1-iT-eeb"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wvH-TN-vWj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="941" y="-814"/>
         </scene>

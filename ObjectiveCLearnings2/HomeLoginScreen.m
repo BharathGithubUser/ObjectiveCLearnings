@@ -7,6 +7,8 @@
 //
 
 #import "HomeLoginScreen.h"
+#import "TableViewControllerExample.h"
+#import "WelcomeViewController.h"
 
 @interface HomeLoginScreen ()
 
@@ -48,4 +50,17 @@
 }
 */
 
+- (IBAction)manualNavigation:(id)sender {
+////    TableViewControllerExample *navigateTo = [[TableViewControllerExample alloc]initWithNibName:@"TableViewController" bundle:nil];
+////    [self presentViewController:navigateTo animated:YES completion:nil];
+//    WelcomeViewController *welcomeViewController = [[WelcomeViewController alloc]init];
+//    [self.navigationController pushViewController: welcomeViewController animated:NO];
+//    NSLog(@"manualNavigatin button pressed");
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    WelcomeViewController* controller = [storyboard instantiateViewControllerWithIdentifier:@"WelcomeViewController"];
+    [self.navigationController pushViewController:controller animated:YES];
+    
+
+}
 @end
